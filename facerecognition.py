@@ -4,6 +4,7 @@
 ## Github : https://github.com/mbahmbul ##
 import cv2
 
+## checking ##
 cap = cv2.VideoCapture(0)
 ret = cap.set(cv2.CAP_PROP_FRAME_WIDTH, 640)
 ret = cap.set(cv2.CAP_PROP_FRAME_HEIGHT, 480)
